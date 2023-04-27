@@ -2,8 +2,8 @@
 #![no_std]
 #![deny(warnings, missing_docs)]
 
-#![feature(custom_test_frameworks)]
-#![test_runner(crate::test_runner)]
+// #![feature(custom_test_frameworks)]
+// #![test_runner(crate::test_runner)]
 
 use core::{
     fmt::{self, Write},
