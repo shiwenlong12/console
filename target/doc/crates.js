@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["cfg_if","lock_api","log","rcore_console","scopeguard","spin"];
