@@ -2,7 +2,9 @@
 #![no_std]
 #![deny(warnings, missing_docs)]
 
+// 自定义测试框架
 #![feature(custom_test_frameworks)]
+//  是用 test_runner 做为测试 runner
 #![test_runner(crate::test_runner)]
 
 use core::{

@@ -39,11 +39,11 @@ fn test_println() {
     (&Console1).put_char(96);
     (&Console1).put_str("abc\n");
 
-
     // 设置日志级别
     set_log_level(option_env!("LOG"));
     //测试各种打印
     test_log();
     rcore_console::print!("hell0 ");
     rcore_console::println!("world");
+
 }
